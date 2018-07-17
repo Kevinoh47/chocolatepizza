@@ -82,3 +82,7 @@ h1 {
   padding: 12px;
 }
 
+#ingredients-list {
+  background-image: url("assets/list-bg.png");
+}
+
