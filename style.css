@@ -15,26 +15,29 @@
 [class*='col-'] {
   float: left; 
   min-height: 1px; 
-  width: 16.66%; 
+  width: 12%;
   /*-- our gutter -- */
-  padding: 6px; 
-  background-color: #FFDCDC;
+  padding: 2px; 
+  /* background-color: #FFDCDC; */
 }
 
-.col-1{ width: 16.66%; }
-.col-2{ width: 33.33%; }
-.col-3{ width: 50%;    }
-.col-4{ width: 66.66%; }
-.col-5{ width: 83.33%; }
-.col-6{ width: 100%;   }
+.col-1{ width: 12%; }
+.col-2{ width: 24%; }
+.col-3{ width: 36%; }
+.col-4{ width: 48%; }
+.col-5{ width: 60%; }
+.col-6{ width: 72%; }
+.col-7{ width: 84%; }
+.col-8{ width: 96%; }
 
-.outline, .outline *{
+
+/* .outline, .outline *{
   outline: 1px solid #F6A1A1; 
-}
+} */
 
 /*-- some extra column content styling --*/
 [class*='col-'] > p {
-background-color: #FFC2C2; 
+/* background-color: #FFC2C2;  */
 /* padding: 0; */
 margin: 0;
 /* text-align: center; 
@@ -48,9 +51,7 @@ h1 {
   font-weight: bolder;
   font-stretch: ultra-condensed;
 }
-#logo {
-  /* margin: 0; */
-}
+
 #delicious {
   font-family: 'Yellowtail', cursive;
   color: black;
@@ -83,6 +84,27 @@ h1 {
 }
 
 #ingredients-list {
-  background-image: url("assets/list-bg.png");
+  font-family: 'Sunshiney', cursive;
+  color: grey;
+  font-size: 20px;
+
 }
+
+.notepaper {
+  background-image: url("assets/list-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain; 
+  background-position: left left;
+  border-top: 2px grey;
+}
+
+ul {
+  list-style-image: url("assets/rounded_checkbox.png");
+}
+
+.checked {
+  list-style-image: url("assets/rounded_checkbox_checked.png");
+  text-decoration: line-through;
+}
+
 
