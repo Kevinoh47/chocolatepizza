@@ -18,7 +18,7 @@
   width: 12%;
   /*-- our gutter -- */
   padding: 2px; 
-  /* background-color: #FFDCDC; */
+  background-color: #FFDCDC;
 }
 
 .col-1{ width: 12%; }
@@ -31,9 +31,9 @@
 .col-8{ width: 96%; }
 
 
-/* .outline, .outline *{
+.outline, .outline *{
   outline: 1px solid #F6A1A1; 
-} */
+}
 
 /*-- some extra column content styling --*/
 [class*='col-'] > p {
@@ -45,35 +45,48 @@ color: white;  */
 }
 
 h1 {
-  /* font-family: 'Pragati Narrow', sans-serif; */
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 48px; 
   font-weight: bolder;
   font-stretch: ultra-condensed;
+  margin: 0px;
 }
 
 #delicious {
   font-family: 'Yellowtail', cursive;
   color: black;
-  font-size: 36px;
+  font-size: 32px;
   vertical-align: text-top;
   margin: 0;
 }
 
-#best-food-blog, #post-date, #print-icon {
+#best-food-blog,  #post-date, #print-icon {
   font-family: 'Roboto Condensed', sans-serif;
   color: grey;
   text-transform: uppercase;
+}
+
+#print-icon {
+  font-variant-caps: all-small-caps;
   font-size: 16px;
 }
 
-#best-food-blog, #print-icon {
-  font-variant-caps: all-small-caps;
+#post-date {
+  font-size: 12px;
+}
+#best-food-blog {
+  font-size: 10px;
+}
+
+#print-icon {
+  float: left;
+  padding-top: 45px;
+  padding-left: 55px;
 }
 
 #icons {
+  padding-top: 20px;
   float: left;
-  margin-left: 600px;
 }
 
 .directions {
