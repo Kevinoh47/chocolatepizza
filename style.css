@@ -30,7 +30,6 @@
 .col-7{ width: 84%; }
 .col-8{ width: 96%; }
 
-
 .outline, .outline *{
   outline: 1px solid #F6A1A1; 
 }
@@ -69,6 +68,8 @@ h1 {
 #print-icon {
   font-variant-caps: all-small-caps;
   font-size: 16px;
+  padding-top: 85px;
+  padding-left: 65px;
 }
 
 #post-date {
@@ -76,12 +77,9 @@ h1 {
 }
 #best-food-blog {
   font-size: 10px;
-}
-
-#print-icon {
-  float: left;
-  padding-top: 45px;
-  padding-left: 55px;
+  float: right;
+  padding-right: 40px;
+  padding-bottom: 10px;
 }
 
 #icons {
@@ -100,7 +98,18 @@ h1 {
   font-family: 'Sunshiney', cursive;
   color: grey;
   font-size: 20px;
+}
 
+#choco-pizza {
+  padding-top: 40px;
+}
+
+.hashed-line {
+  background-image: url("assets/hashed-border-line.png");
+  height: 12px;
+  background-repeat: no-repeat;
+  background-size: contain; 
+  background-position: left left;
 }
 
 .notepaper {
@@ -112,11 +121,11 @@ h1 {
 }
 
 ul {
-  list-style-image: url("assets/rounded_checkbox.png");
+  list-style-image: url("assets/rounded-checkbox.png");
 }
 
 .checked {
-  list-style-image: url("assets/rounded_checkbox_checked.png");
+  list-style-image: url("assets/rounded-checkbox-checked.png");
   text-decoration: line-through;
 }
 
